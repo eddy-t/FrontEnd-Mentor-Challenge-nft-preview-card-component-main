@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+html {
+  margin: 0;
+  padding: 0;
+}
+body {background-color: hsl(217, 54%, 11%);}
+
+main {margin: 2rem; justify-content: center; display: flex;}
+.card {margin-top: 10px; box-shadow: 10px 5px 5px 5px hsl(217, 54%, 11%); border-radius: 20px; padding: 20px; background-color: hsl(216, 50%, 16%); max-width: 285px; text-align: center;}
+.img-card img {border-radius: 10px; max-width: 285px; background: url('../images/icon-view.svg'); background-color: hsl(178, 100%, 50%); background-repeat: no-repeat; background-position: center;}
+.img-card:hover {display: inline-flex; width: 285px; height: 288px; background-size: auto; background-repeat: no-repeat; background-position: center; opacity: 0.6; border-radius: 10px; background-image: url('../images/icon-view.svg'); background-color: hsl(178, 100%, 50%);}
+.img-card:active {background-repeat: no-repeat; background-position: center; opacity: 0.5; border-radius: 10px; background-image: url('../images/icon-view.svg'); background-color: hsl(178, 100%, 50%);}
+.card h1 {font-size: 25px; color: hsl(0, 0%, 100%); text-align: left; font-family: 'Outfit'; font-weight: 600;}
+.card h1:hover{color: hsl(178, 100%, 50%);}
+.card h1:active{color: hsl(178, 100%, 50%);}
+.card-text {text-align: left; color: hsl(215, 51%, 70%); font-family: 'Outfit'; font-weight: 300; font-size: 18px;}
+#price {float: left; text-align: left; font-family: 'Outfit'; font-weight: 400; color: hsl(178, 100%, 50%); font-size: 15px;}
+#price img {margin-right: 5px;}
+#timeleft {margin-right: 30px; font-weight: 400; font-size: 14px; display: flex; float: right; color: hsl(215, 51%, 70%); font-family: 'Outfit'; font-weight: 300;}
+#timeleft img {margin-right: 5px;}
+#line {color: hsl(215, 32%, 27%); width: 280px; border: 1px groove hsl(215, 32%, 27%); text-align: center; justify-content: center; display: inline-flex;}
+#author {color: hsl(215, 51%, 70%); font-family: 'Outfit'; font-weight: 300; float: left; margin-top: 27px; margin-left: 15px; font-size: 16px;}
+#author a {color: hsl(0, 0%, 100%); text-decoration: none;}
+#author a:hover {color: hsl(178, 100%, 50%); text-decoration: none;}
+#author a:active {color: hsl(178, 100%, 50%); text-decoration: none;}
+.avatar { text-align: center;}
+#avatar { float: left; margin-top: 20px; width: 32px; border: 1px solid white; border-radius: 50%;}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media screen and (max-width:430px){
+  .card h1 {margin: 10px 0; font-size: 25px; color: hsl(0, 0%, 100%); text-align: left; font-family: 'Outfit'; font-weight: 600;}
+  .card-text {margin: 0; text-align: left; color: hsl(215, 51%, 70%); font-family: 'Outfit'; font-weight: 300; font-size: 18px;}
+  #price {text-align: left; margin-left: 0; font-family: 'Outfit'; font-weight: 400; color: hsl(178, 100%, 50%); font-size: 14px;}
+  #avatar {margin-left: 0px;}
+  #timeleft {margin-right: 0px;}
+}
