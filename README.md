@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL:
-- Live Site URL: https://www.eddytahibi.fr//projets/nft-preview-card-component
+- Live Site URL: https://www.eddytahibi.fr/projets/nft-preview-card-component
 
 ## My process
 
