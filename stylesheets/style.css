@@ -17,7 +17,7 @@ main {margin: 2rem; justify-content: center; display: flex;}
 .card-text {text-align: left; color: hsl(215, 51%, 70%); font-family: 'Outfit'; font-weight: 300; font-size: 18px;}
 #price {float: left; text-align: left; font-family: 'Outfit'; font-weight: 400; color: hsl(178, 100%, 50%); font-size: 15px;}
 #price img {margin-right: 5px;}
-#timeleft {margin-right: 30px; font-weight: 400; font-size: 14px; display: flex; float: right; color: hsl(215, 51%, 70%); font-family: 'Outfit'; font-weight: 300;}
+#timeleft {font-weight: 400; font-size: 14px; display: flex; float: right; color: hsl(215, 51%, 70%); font-family: 'Outfit'; font-weight: 300;}
 #timeleft img {margin-right: 5px;}
 #line {color: hsl(215, 32%, 27%); width: 280px; border: 1px groove hsl(215, 32%, 27%); text-align: center; justify-content: center; display: inline-flex;}
 #author {color: hsl(215, 51%, 70%); font-family: 'Outfit'; font-weight: 300; float: left; margin-top: 27px; margin-left: 15px; font-size: 16px;}
